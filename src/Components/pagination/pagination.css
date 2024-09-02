@@ -1,0 +1,13 @@
+.paginate-items .paginate-item {
+  width: 38px;
+  height: 38px;
+  margin: 0 4px;
+  border: 1px solid rgb(90, 6, 90);
+  background-color: rgb(90, 6, 90);
+  border-radius: 2px;
+  transition: all 300ms ease-in-out;
+}
+.paginate-item:hover {
+  background-color: white;
+  color: rgb(90, 6, 90) !important;
+}

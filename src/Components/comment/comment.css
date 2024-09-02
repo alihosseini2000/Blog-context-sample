@@ -1,0 +1,21 @@
+.blog-comments-item {
+  border: 1.5px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  padding: 16px;
+}
+.blog-comments-item .comment-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.comment-img img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 400px) {
+  .blog-comments-item {
+    grid-template-columns: 100px auto;
+  }
+}

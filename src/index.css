@@ -1,0 +1,72 @@
+ *,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+} 
+html{
+    font-size: 10px;
+}
+:root {
+  --clr-mid-purple: #a84de7;
+  --clr-purple: #8200dd;
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-dark-blue: #0d1741;
+  --clr-mid-blue: #49009b;
+  --clr-ex-blue: #3f0085;
+  --clr-grey: #565872;
+  --clr-light-blue: #f7fbff;
+  --clr-danger: #cf271b;
+
+  --base-font-family: "Lora", serif;
+  --font-family-lora: "Lora", serif;
+  --font-family-rubik: "Rubik", sans-serif;
+  --transition: all 300ms ease-in-out;
+}
+body{
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-family: var(--font-family-lora);
+  color: var(--clr-grey);
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+img{
+  width: 100%;
+  display: block;
+}
+.img-cover{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button{
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: 1.8rem;
+}
+input, textarea, select{
+  outline: 0;
+  border: none;
+  resize: none;
+  font-family: inherit;
+  font-size: 1.6rem;
+}
+
+/* custom utility classes */
+ .container{
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 2rem;
+} 
